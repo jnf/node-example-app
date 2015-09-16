@@ -7,7 +7,7 @@ var sqlite3 = require('sqlite3').verbose(),
 var movie_fields = [
   ['title', 'text'],
   ['overview', 'text'],
-  ['released_date', 'text'],
+  ['release_date', 'text'],
   ['inventory', 'integer']
 ]
 
