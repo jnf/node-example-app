@@ -24,6 +24,8 @@ db.serialize(function() {
       movie.release_date
     );
   }
+
+  movie_statement.finalize();
 });
 
 db.close(); // ^_^
